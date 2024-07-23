@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (min-width:375px) and (max-width:425px) {
+  nav{
+  @apply space-x-8
+  }
+}
