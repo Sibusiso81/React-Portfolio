@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
     fontFamily:{
-      general:['general-sans','sans-serif']
+      general:['general-sans','sans-serif'],
+      manrope:['Manrope','sans-serif'],
+      poppins:['Poppins','sans-serif'],
     }
     },
   },
