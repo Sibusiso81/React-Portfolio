@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <section className='h-fit  lg:h-screen w-fitt bg-neutral-950 flex flex-col justify-center '>
+    <section className='h-screen  lg:h-screen w-fitt bg-neutral-950 flex flex-col justify-center '>
         <div className='grid grid-cols-2 gap-12 md:gap-2  mt-4 p-2 '>
             <div className='col-span-2 md:col-span-1  text-white  '>
             <div className='flex flex-row  mt-2 p-1 md:p-6'>
