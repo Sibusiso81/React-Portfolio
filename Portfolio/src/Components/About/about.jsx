@@ -22,7 +22,7 @@ function About() {
                 </div>
             </div>
             </div>
-            <div className='col-span-2 md:col-span-1 text-white flex flex-col font-poppins lg:text-[16px] md:mt-6 pr-1 lg:pr-10'>
+            <div className='col-span-2 md:col-span-1 text-white flex flex-col font-poppins lg:text-[16px] md:mt-6 pr-1 lg:pr-10 justif-center'>
                 <div className='justify-end items-end justofy-center p-2'><p>I am a dedicated human resources student at the University of Johannesburg with a passion for technology and personal development. Through self-motivation and a keen interest in the digital world, I have taught myself frontend development and am currently expanding my skills into backend development. My journey in tech is driven by a relentless pursuit of knowledge and a desire to create impactful solutions.
 
 
