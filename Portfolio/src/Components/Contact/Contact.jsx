@@ -10,7 +10,7 @@ function Contact() {
   <form action="https://formbold.com/s/6l1de" method='POST' className='justify-center items-center '>
   <div className='flex flex-row items-center space-x-2 max-w-screen-sm'>
     <div className='bg-[#f9f9f9] rounded-full w-4 h-4 animation-pulse'></div>
-    <div className=''><p>Avilable for new opportunities</p></div>
+    <div className=''><p>Available for new opportunities</p></div>
   </div>
 
   <div className=' grid grid-cols-2 gap-6 p-2 lg:col-start-2'>
