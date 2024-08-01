@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <main className='overflow-y-hidden '>
+    <main className='overflow-y-hidden overflow-hidden'>
     <Home/>
     <About/>
     <Projects/>
