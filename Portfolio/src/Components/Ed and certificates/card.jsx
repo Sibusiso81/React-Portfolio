@@ -1,21 +1,18 @@
 import React from 'react'
 import {ArrowUpRight, GraduationCap} from 'lucide-react'
-function Card() {
+function Card({insitution,duration,qualifiation}) {
   return (
     <>
-   <div className='bg-neutral-400/15 flex flex-col h-fit w-fit max-w-[400px] rounded-md '>
-  <div className='flex flex-row justify-between p-1 pt-4'>
-  <div className='bg-neutral-300/10  p-2 flex flex-row ml-2  rounded-lg  '>
-      <p>Lorem</p>
-    
-   </div>
-  <div className=' '>
-  <ArrowUpRight className='bg-neutral-300/40 stroke-neutral-300 rounded-lg hidden hover:block '/>
-  </div>
-  </div>
-    <div className='p-4'>
-      <h1 className='text-xl pb-2'>Lorem</h1>
-      <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ipsam sequi quod. Quibusdam, ut explicabo dolor perferendis beatae vitae quos vel iure possimus optio quia iste, ipsum laudantium tempore quidem.</p>
+   <div className='flex flex-col w-full p-4 '>
+    <div className='flex flex-row justify-between p-'>
+    <div className='text-pretty'>
+    <p className=''>{qualifiation}</p>
+    </div>
+
+      <p>{duration}</p>
+    </div>
+    <div className='border-2 border-[#343434] rounded-md p-1 w-fit'>
+      <p className='text-[10px]'> {insitution}</p>
     </div>
    </div>
     </>
