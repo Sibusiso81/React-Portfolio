@@ -67,7 +67,7 @@ function Home() {
 
         </div>
         {/* Name and Surname */}
-        <div className='mt-28 p-5 h-fit w-full overflow-hidden text-white '>
+        <div className=' flex flex-col items-start  ml-2 lg:ml-6 mt-28 p-5 h-fit w-full overflow-hidden text-white '>
             <motion.div
             initial={{
                 y:320,

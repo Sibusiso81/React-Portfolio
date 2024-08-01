@@ -10,7 +10,7 @@ function Education() {
     <div className='space-y-5 max-w-screen-sm '>
      
     <Card insitution={'Phoenix College of Johannesburg'} duration={'2020/09/12'} qualifiation={'Matric '}/>
-    <Card insitution={'University of Johannesburg'} duration={' Present'} qualifiation={`Bachelor of Human Resources Managment Resources`   }/>
+    <Card insitution={'University of Johannesburg'} duration={' Present'} qualifiation={`Bachelor of Human Resources Managment `   }/>
    
        </div>
     </div>
