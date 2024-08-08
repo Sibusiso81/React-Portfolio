@@ -59,7 +59,7 @@ function Home() {
                 <a  
                  className='text-wrapz  col-span-2 text-center md:col-start-2 font-general font-bold '
                  href='mailto:zulusibusiso81@gmail.com?subject
-                 LeU +0027t s work together,body=Let me now of any idea you have and how i coudl contribute '
+                 Let +0027t s work together?body=Let me now of any idea you have and how i coudl contribute '
                 >zulusibusiso81@gmail.com</a>
                 <br />
                
