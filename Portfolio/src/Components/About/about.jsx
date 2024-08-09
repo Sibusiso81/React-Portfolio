@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className='col-span-2 md:col-span-1 text-white flex flex-col font-poppins lg:text-[16px] md:mt-6 pr-1 lg:pr-10 justif-center'>
                 <div className='justify-end items-end justofy-center p-2'><p>
-                An aspiring Human Resources practitioner who has in persuit of this status found himself again taking to task the opportunity to equipt himself with Web devlopment knowledge as it to some expent revelutionised the field and moulding that knowledge into an ability to build responsive web aplications with <span className='text-[#ececec]'>invaluable functionalities and accesible user interfaces</span> using various technologies
+                An aspiring Human Resources practitioner who has in persuit of this status found himself again taking to task the opportunity to equipt himself with Web devlopment knowledge as it to some expent revelutionised the field and moulding that knowledge into an ability to build responsive web aplications with <span className='text-[#eeebed]'>invaluable functionalities and accesible user interfaces</span> using various technologies
 
     <br />
     <br />
