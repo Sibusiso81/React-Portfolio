@@ -7,7 +7,7 @@ function About() {
             <div className='col-span-2 md:col-span-1  text-white  '>
             <div className='flex flex-row   mt-2 p-1 md:p-6 md:justify-center items-center'>
                 <div className='grid grid-cols-3'>
-                <div className=' rounded-full overflow-hidden h-fit w-fit text-wrap  
+                <div className=' rounded-full overflow-hidden h-fit w-fit  
                  '>
                     <img
                     className='rounded-lg h-11 w-11 '
@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className='col-span-2 md:col-span-1 text-white flex flex-col font-poppins lg:text-[16px] md:mt-6 pr-1 lg:pr-10 justif-center'>
                 <div className='justify-end items-end justofy-center p-2'><p>
-                An aspiring Human Resources practitioner who has in persuit of this status found himself again taking to task the opportunity to equipt himself with Web devlopment knowledge as it to some expent revelutionised the field and moulding that knowledge into an ability to build responsive web aplications with invaluable functionalities and accesible user interfaces using various technologies
+                An aspiring Human Resources practitioner who has in persuit of this status found himself again taking to task the opportunity to equipt himself with Web devlopment knowledge as it to some expent revelutionised the field and moulding that knowledge into an ability to build responsive web aplications with <span className='text-[#ececec]'>invaluable functionalities and accesible user interfaces</span> using various technologies
 
     <br />
     <br />
