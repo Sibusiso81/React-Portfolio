@@ -1,8 +1,21 @@
 import { AtSign, Mail, MoveDown, PhoneCall } from 'lucide-react'
 import { easeInOut, motion } from "framer-motion"
 import React, { useState } from 'react'
+import { Link, redirect, useNavigate } from 'react-router-dom'
+import supabase from '../../supabase'
 
 function Home() {
+    
+    const loader = async()=>{
+      /*   const {data :{user}} = await supabase.auth.getUser()
+        if(!user){
+            return redirect('/login')
+            console.log('session /user details not found!') 
+            redirect('/login')
+        } */
+        const nevigate = useNavigate()
+        nevigate('/login')
+    }
   return (
     <section className='h-screen w-screen bg-neutral-950 text-white flex flex-col font-general  text-wrap '>
         <div className=' '>
@@ -23,7 +36,15 @@ function Home() {
                     duration:1,
                     ease:'easeInOut',
                  }}
-                >Sibusiso <br /> Zulu.</motion.h2>
+                >
+
+                    <Link className='text-start '
+                    onClick={loader}
+                    to={'/login'}
+                    >
+                    Sibusiso <br /> Zulu.
+                    </Link>
+                </motion.h2>
                 
             </motion.div>
             <div>

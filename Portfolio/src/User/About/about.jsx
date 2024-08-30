@@ -30,20 +30,9 @@ function About() {
         <div className="col-span-2 md:col-span-1 text-white flex flex-col font-poppins lg:text-[16px] md:mt-6 pr-1 lg:pr-10 justif-center">
           <div className="justify-end items-end justofy-center p-2">
             <p>
-              An aspiring Human Resources practitioner who has in persuit of
-              this status found himself again taking to task the opportunity to
-              equipt himself with Web devlopment knowledge as it to some expent
-              revelutionised the field and moulding that knowledge into an
-              ability to build responsive web aplications with{" "}
-              <span className="text-gray-400/90">
-                invaluable functionalities and accesible user interfaces
-              </span>{" "}
-              using various technologies
-              <br />
-              <br />
-              {/* Beyond academics and technology, I center my life around fitness, kindness, and striving to be the best version of myself. I believe in the power of resilience and determination, values that guide me in both my personal and professional endeavors. Whether collaborating with a team or working on individual projects, my goal is to make a positive difference for myself and those around me. Thank you for visiting my portfolio, and I look forward to connecting and sharing more about my work and passions. */}
-              <br />
-              <br />
+            As an aspiring Human Resources practitioner, I have embraced the opportunity to equip myself with web development skills, recognizing the revolutionary impact of technology on the field. I am committed to harnessing this knowledge to build responsive web applications with invaluable functionalities and accessible user interfaces, utilizing a variety of modern technologies."
+
+ 
             </p>
           </div>
         </div>
