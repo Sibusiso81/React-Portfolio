@@ -57,7 +57,7 @@ function Home() {
                          }}
                 >
 
-                    <Link to={'dashboard'}>HR Student & Frontend Developer</Link>
+                    HR Student & Frontend Developer
                 </motion.p>
             </div>
             <motion.div
