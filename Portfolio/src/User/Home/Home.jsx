@@ -61,7 +61,10 @@ function Home() {
                             duration:1,
                             ease:'easeInOut',
                          }}
-                >HR Student & Frontend Developer</motion.p>
+                >
+
+                    <Link to={'/dashboard'}>HR Student & Frontend Developer</Link>
+                </motion.p>
             </div>
             <motion.div
              initial={{
