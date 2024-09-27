@@ -16,12 +16,18 @@ import Login from './Personal/Login/Login.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-    <Route path='/' element={<Collection />}> </Route>
-      <Route path='/login' element={<Login />}>
-      
-      </Route>
+    <Route path='/' element={<Collection />}/>
+      <Route path='/login' element={<Login />}/>
       <Route path='/dashboard' element={<Dashboard />}/>
-   
+    
+      
+      
+   {/* <Route path='/' element={<App/>}>
+      <Route path='' elemement={/>
+      <Route path="/login" element={<Login/>}>
+      <Route path='dashboard' element={<Dashboard/>}></Route>
+      </Route>
+   </Route> */}
     </>
   )
 )

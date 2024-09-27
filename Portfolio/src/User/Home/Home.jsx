@@ -6,16 +6,10 @@ import supabase from '../../supabase'
 
 function Home() {
     
-    const loader = async()=>{
-      /*   const {data :{user}} = await supabase.auth.getUser()
-        if(!user){
-            return redirect('/login')
-            console.log('session /user details not found!') 
-            redirect('/login')
-        } */
+    /* const loader = async()=>{
         const nevigate = useNavigate()
         nevigate('/login')
-    }
+    } */
   return (
     <section className='h-screen w-screen bg-neutral-950 text-white flex flex-col font-general  text-wrap '>
         <div className='flex-1 '>
@@ -39,7 +33,7 @@ function Home() {
                 >
 
                     <Link className='text-start '
-                    onClick={loader}
+                    /* onClick={loader} */
                     to={'/login'}
                     >
                     Sibusiso <br /> Zulu.
@@ -63,7 +57,7 @@ function Home() {
                          }}
                 >
 
-                    HR Student & Frontend Developer
+                    <Link to={'dashboard'}>HR Student & Frontend Developer</Link>
                 </motion.p>
             </div>
             <motion.div
