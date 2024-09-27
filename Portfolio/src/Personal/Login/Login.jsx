@@ -9,11 +9,25 @@ function Login() {
                const {data,error} = await supabase.auth.signUp({
                     email:email,
                     password:password,
-
+                
                 })
+                console.log('signed up successfully !')
             } catch (error) {
-                console.log(error.message)
+                console.log(error)
             }
+    }
+
+    /* Handle sign in */
+    async function handleSignIn(){
+        try{
+            const {data:error} = await upabase.auth.signInWithPassword({
+                email:email,
+                password:password,
+            })
+            console.log('sign in success')
+        }catch(error){
+            console.log(error)
+        }
     }
   return (
     <section className='flex flex-col w-screen h-screen  justify-center items-center text-white font-poppins space-y-2 '>
