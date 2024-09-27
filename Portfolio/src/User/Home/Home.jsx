@@ -18,7 +18,7 @@ function Home() {
     }
   return (
     <section className='h-screen w-screen bg-neutral-950 text-white flex flex-col font-general  text-wrap '>
-        <div className=' '>
+        <div className='flex-1 '>
         <div className='grid grid-cols-4 gap-2 p-4 text-[12px] font-bold my-auto text-wrap'> 
             <motion.div
            className='overflow-hidden h-fit font-bold  '
@@ -63,7 +63,7 @@ function Home() {
                          }}
                 >
 
-                    <Link to={'/dashboard'}>HR Student & Frontend Developer</Link>
+                    HR Student & Frontend Developer
                 </motion.p>
             </div>
             <motion.div
@@ -110,7 +110,7 @@ function Home() {
             >
             <h1 className='text-8xl md:text-9xl font-bold font-general   lg:text-[160px] xl:text-[220px] '>Zulu</h1>
             <div className='flex flex-row items-center font-general'>
-                <h1 className='text-7xl md:text-7xl 
+                <h1 className='text-6xl md:text-7xl 
                lg:text-[140px] xl:text-[200px]
                 font-bold '>Sibusiso</h1>
                 <span className='bg-white h-5 w-5 ml-2 mt-6 lg:mt-10 lg:h-10 lg:w-10 xl:mt-20 rounded-full'></span>
@@ -119,7 +119,7 @@ function Home() {
         </div>
         </div>
         {/* Scroll To explore */}
-        <div className='flex flex-row overflow-hidden h-fit items-center mt-48 md:mt-36 lg:mt-10'>
+        <div className='flex flex-row overflow-hidden h-fit items-center mt-48 md:mt-36 lg:mt-10 mb-2'>
         <motion.div
         
         initial={{
@@ -154,7 +154,7 @@ function Home() {
                 duration:0.85,
                 ease:'easeInOut'
             }}
-            className='ml-2 font-bold text-[10px]'>SCROLL TO EXPLORE</motion.p></span>
+            className='ml-2  font-bold text-[10px]'>SCROLL TO EXPLORE</motion.p></span>
         </div>
     </section>
 )

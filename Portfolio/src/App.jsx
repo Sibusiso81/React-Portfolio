@@ -7,9 +7,8 @@ function App() {
 
   return (
 
-    <Outlet>
-      <Toaster/>
-    </Outlet>
+    <Outlet/>
+    
     
   )
 }
