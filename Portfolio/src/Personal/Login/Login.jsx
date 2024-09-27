@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import supabase from '../../supabase';
+import { Toaster,toast} from 'react-hot-toast';
 
 function Login() {
     const [email,setEmail] =useState('')
@@ -9,25 +10,33 @@ function Login() {
                const {data,error} = await supabase.auth.signUp({
                     email:email,
                     password:password,
-                
-                })
-                console.log('signed up successfully !')
+                },
+               )
+               toast.success('Sign  in successfull')
+                console.log('user info:',email,password)
             } catch (error) {
                 console.log(error)
+                toast.error('Failed to sign In')
             }
     }
 
     /* Handle sign in */
     async function handleSignIn(){
         try{
-            const {data:error} = await upabase.auth.signInWithPassword({
+            const {data:error} = await supabase.auth.signInWithPassword({
                 email:email,
                 password:password,
-            })
-            console.log('sign in success')
+            },
+            
+        )
+        toast.success('Sign  in successfull'),
+        console.log('user info:',email,password)
+            
         }catch(error){
             console.log(error)
+            toast.error('Failed to sign In')
         }
+       
     }
   return (
     <section className='flex flex-col w-screen h-screen  justify-center items-center text-white font-poppins space-y-2 '>
@@ -37,6 +46,7 @@ function Login() {
             <h2 className='text-center text-xl font-bold font-manrope mb-2'>Sign In to your account</h2>
             {/* Form */}
             <div className='space-y-2 '>
+               
                 <label >Email address</label>
                 <input type="text" className='w-full h-8 outline-none border border-neutral-400 bg-[#ececec] rounded-md text-black p-1' onChange={(e)=>setEmail(e.target.value)} />
 
@@ -48,11 +58,15 @@ function Login() {
             <p>Forgot your Password ?</p>
             </div>
            <div className='flex flex-row space-x-4'>
-           <button className='w-1/2 h-8 bg-[#ececec] text-monrope font-semibold text-center text-black mt-4 rounded-md'>Sign in</button>
-           <button className='w-1/2 h-8 bg-[#ececec] text-monrope font-semibold text-center text-black mt-4 rounded-md'>Sign up</button>
+           <button className='w-1/2 h-8 bg-[#ececec] text-monrope font-semibold text-center text-black mt-4 rounded-md'
+           onClick={handleSignIn}
+           >Sign in</button>
+           <button className='w-1/2 h-8 bg-[#ececec] text-monrope font-semibold text-center text-black mt-4 rounded-md'
+           onClick={handleSignUp}
+           >Sign up</button>
            </div>
         </div>
-        
+        <Toaster/>
     </section>
   )
 }
