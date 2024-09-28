@@ -68,7 +68,7 @@ function Login() {
        onClick={handleSignUp}
        >
 
-        <Link to={'dashboard'}>Sign up</Link>
+        Sign up
        </button>
        </div>
     </div>
