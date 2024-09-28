@@ -66,8 +66,7 @@ function Login() {
        >Sign in</button>
        <button className='w-1/2 h-8 bg-[#ececec] text-monrope font-semibold text-center text-black mt-4 rounded-md'
        onClick={handleSignUp}
-       >
-
+       
         Sign up
        </button>
        </div>
