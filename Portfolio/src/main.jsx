@@ -9,20 +9,19 @@ import {
   createRoutesFromElements,
   RouterProvider,
   BrowserRouter,
-Switch,
+
 } from "react-router-dom";
 import Collection from './User/Collection/Collection.jsx';
 import Dashboard from './Personal/Dashboard/Dashboard.jsx';
 import Login from './Personal/Login/Login.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
-<Switch>
+
 <Route path='/' element={<App/>}>
 <Route index element={<Collection/>}/>
-<Route path='/login' element={<Login />}/>
-<Route path='/dashboard' element={<Dashboard />}/>
+<Route path='login' element={<Login />}/>
+<Route path='dashboard' element={<Dashboard />}/>
 </Route>
-</Switch>
 
 
 
