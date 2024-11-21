@@ -13,7 +13,7 @@ function About() {
               >
                 <img
                   className="rounded-lg h-11 w-11 "
-                  src="https://media.licdn.com/dms/image/D4D03AQE2TyjKNsWxDg/profile-displayphoto-shrink_200_200/0/1723307992013?e=1729123200&v=beta&t=-fcOcNS-NxaLAiWb1mmJkmkSYhlyzOTYGEdTi1miuw0"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQE2TyjKNsWxDg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723307992013?e=1737590400&v=beta&t=IAmxS8KD2vFtzT96DGCqFAS3aJSidTzBRQ_AfEk8t1Q"
                   alt="profile-iimg"
                 />
               </div>
