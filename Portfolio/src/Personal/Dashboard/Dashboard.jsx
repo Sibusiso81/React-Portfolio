@@ -1,8 +1,12 @@
 import React from 'react'
+import Podcast from './Podcast/Podcast'
+
 
 function Dashboard() {
   return (
-    <h1 className='text-white'>Dashboard</h1>
+  <section className='text-white'>
+    <Podcast/>
+  </section>
   )
 }
 
